@@ -1,8 +1,19 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Karla, Syne } from 'next/font/google'
 import './globals.css'
+import Navbar from './components/Navbar/Navbar';
 
-const inter = Inter({ subsets: ['latin'] })
+
+const syne = Syne({
+  subsets: ['latin'],
+  variable: '--font-syne',
+});
+const karla = Karla({
+  subsets: ['latin'],
+  variable: '--font-karla',
+});
+
+
 
 export const metadata: Metadata = {
   title: 'Sadiq Bilyamin',
@@ -16,7 +27,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${syne.variable} ${karla.variable}`}>
+        <div className='pt-10 mx-auto max-w-xl px-3 md:px-0'>
+          <Navbar />
+        </div>
+        {children}
+      </body>
     </html>
   )
 }
