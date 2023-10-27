@@ -2,15 +2,18 @@ import type { Metadata } from 'next'
 import { Karla, Syne } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 
 const syne = Syne({
   subsets: ['latin'],
   variable: '--font-syne',
+  display: 'swap',
 });
 const karla = Karla({
   subsets: ['latin'],
   variable: '--font-karla',
+  display: 'swap',
 });
 
 
@@ -28,10 +31,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${syne.variable} ${karla.variable}`}>
-        <div className='pt-10 mx-auto max-w-xl px-3 md:px-0'>
+        <header className='pt-10 mx-auto max-w-xl px-8 md:px-0'>
           <Navbar />
-        </div>
+        </header>
         {children}
+        <Footer />
       </body>
     </html>
   )

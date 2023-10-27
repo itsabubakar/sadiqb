@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Navbar from './components/Navbar/Navbar'
 import BlogSection from './components/Blog/BlogSection'
+import ProjectSection from './components/Projects/ProjectSection'
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         </div>
 
         <BlogSection />
-
+        <ProjectSection />
 
       </div>
     </main>
