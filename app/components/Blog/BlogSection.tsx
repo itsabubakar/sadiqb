@@ -1,4 +1,5 @@
 import Link from "next/link"
+import FeaturedLink from "../FeaturedPost/FeaturedLink"
 
 type Props = {}
 const BlogSection = (props: Props) => {
@@ -6,24 +7,11 @@ const BlogSection = (props: Props) => {
         <section className="py-10 ">
             <h2 className="text-2xl font-headers underline decoration-orange-500  decoration-wavy  font-bold">Featured Posts</h2>
             <ul>
-                <li className="flex flex-col py-2">
-                    <Link className="hover:decoration-wavy hover:underline decoration-orange-500 font-headers text-lg" href={'/blog/first-post'}>lorem Lorem ipsum dolor sit amet consectetur, adipisicing e</Link>
-                    <span className="font-body text-gray-400">October 20, 2023</span>
-                </li>
-                <li className="flex flex-col py-2">
-                    <Link className="hover:decoration-wavy hover:underline decoration-orange-500 font-headers text-lg" href={'/blog/first-post'}>lorem Lorem ipsum dolor sit amet consectetur, adipisicing e</Link>
-                    <span className="font-body text-gray-400">October 20, 2023</span>
-                </li>
-                <li className="flex flex-col py-2">
-                    <Link className="hover:decoration-wavy hover:underline decoration-orange-500 font-headers text-lg" href={'/blog/first-post'}>lorem Lorem ipsum dolor sit amet consectetur, adipisicing e</Link>
-                    <span className="font-body text-gray-400">October 20, 2023</span>
-                </li>
-                <li className="flex flex-col py-2">
-                    <Link className="hover:decoration-wavy hover:underline decoration-orange-500 font-headers text-lg" href={'/blog/first-post'}>lorem Lorem ipsum dolor sit amet consectetur, adipisicing e</Link>
-                    <span className="font-body text-gray-400">October 20, 2023</span>
-                </li>
-
-
+                <FeaturedLink />
+                <FeaturedLink />
+                <FeaturedLink />
+                <FeaturedLink />
+                <Link href={'/downloadresume'} className="py-2 transition duration-200 ease-in decoration-wavy font-headers inline-block  md:text-lg underline hover:decoration-orange-500  text-white rounded-lg  hover:text-orange-500 hover:decoration-wavy }">View all posts</Link>
             </ul>
         </section>
     )

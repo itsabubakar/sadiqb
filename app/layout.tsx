@@ -8,12 +8,10 @@ import Footer from './components/Footer/Footer';
 const syne = Syne({
   subsets: ['latin'],
   variable: '--font-syne',
-  display: 'swap',
 });
 const karla = Karla({
   subsets: ['latin'],
   variable: '--font-karla',
-  display: 'swap',
 });
 
 
@@ -30,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${syne.variable} ${karla.variable}`}>
+      <body className={`mx-auto max-w-2xl  ${syne.variable} ${karla.variable}`}>
         <header className='pt-10 mx-auto max-w-xl px-8 md:px-0'>
           <Navbar />
         </header>

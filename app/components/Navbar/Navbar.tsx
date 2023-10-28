@@ -17,7 +17,7 @@ const Navbar = (props: Props) => {
             <nav className="flex items-center gap-x-5 md:gap-x-8 max-w-xl">
                 <hr className="w-1/5 flex-2 border-orange-500 h-0 horder-t-2 border-dashed" />
 
-                <ul className="flex justify-between font-headers flex-1 w-full gap-2">
+                <ul className="flex justify-between font-headers flex-1 w-full gap-6 md:gap-2">
                     {links.map((link) => (
                         <li key={link.href}>
                             <Link className={`active:bg-black relative ${link.href === path ? "text-white" : "text-gray-300"}`} href={link.href}>
