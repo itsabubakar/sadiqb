@@ -5,7 +5,7 @@ type Props = {}
 const BlogSection = (props: Props) => {
     return (
         <section className="py-10 ">
-            <h2 className="text-2xl font-headers underline decoration-orange-500  decoration-wavy  font-bold">Featured Posts</h2>
+            <h2 className="text-2xl font-headers underline decoration-orange-500  decoration-wavy  font-bold underline-offset-8">Featured Posts</h2>
             <ul>
                 <FeaturedLink />
                 <FeaturedLink />

@@ -5,8 +5,10 @@
 - [x] Build Blog page
 - [x] Build resume page
 - [x] Build footer
-- [] Add transitions to featured post link, fade out text onhover
+- [x] Add transitions to featured post link, fade out text onhover
 - [] Build
+- [x] Add white wavy underline on blog links
+- [] Make border in experience section thick
 - [] Build Resume and add on resume page
 - [] Build inner Blog page
 - [] add bread crumbs to inner blog page
@@ -15,5 +17,10 @@
 - [] add about on resume page
 - [] Build home page
 - [] Build article page
-- [] Build backend
+- [] Set it up to work with markdown
+- [] Build sitemap & RSS feed
+
+selected projects mock ups 1 day
+resume document 1 day
+blog posts 2 days
 
