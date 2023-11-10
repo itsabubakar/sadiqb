@@ -14,6 +14,9 @@ export default function Home() {
           <p className='font-body text-lg'>I develop web apps & mobile apps with a focus on good design, accessibility, and great user experience.</p>
 
           <div className="py-2">
+
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos odio nobis architecto, enim dignissimos, vero omnis unde quae officia consequatur incidunt obcaecati sapiente tempora saepe fugiat nemo laborum ipsum maxime?</p>
             <ResumeLink />
           </div>
         </div>
