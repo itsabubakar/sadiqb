@@ -1,6 +1,9 @@
-import Project from "./Project"
+import Project from "./MobileProject"
 import Verse from '../../../public/img/verse/verse.png'
+import Idyllic from '../../../public/img/idyllic/idyllic.png'
+import Jag from '../../../public/img/jag/jag.png'
 import Link from "next/link"
+import WebProject from "./WebProject"
 
 type Props = {}
 const ProjectSection = (props: Props) => {
@@ -17,16 +20,22 @@ const ProjectSection = (props: Props) => {
                     githubCode="https://github.com/itsabubakar/verse"
 
                 />
-                <Project
-                    title="Project Title"
-                    imgSrc={Verse}
-                    description="The goal of Solsken is to be an effective, usable cross-platform weather app with worldwide support, presenting all information the APIs provide. Mobile use is prioritized heavily, and the UI and UX are built to provide an experience as close to native as possible."
+                <WebProject
+                    title="Idyllic Ui"
+                    imgSrc={Idyllic}
+                    description="Idyllic UI Framework seamlessly marries Tailwind CSS simplicity with Chakra UI-inspired React components. Developers can effortlessly integrate and customize reusable components, and the best part—no need for imports, you can just copy and paste to enhance your development experience."
                     tech={["React", "TypeScript"]}
-                    githubCode="https://github.com/itsabubakar/verse"
-                    liveSite="/"
+                    githubCode="https://github.com/itsabubakar/idyllic-ui-doc"
+                    liveSite="https://idyllic-ui-doc.vercel.app/"
+                />
 
-
-
+                <WebProject
+                    title="Joshua Akubo Gabriel"
+                    imgSrc={Jag}
+                    description="A visual masterpiece that  blending aesthetics and functionality. With an intuitive design, easy navigation leads you through his dynamic expressions and rich cultural tapestry. Carefully curated images provide a vivid showcase of his performances and artistic collaborations. A website celebrating culture and movement, offering a glimpse into the profound spirit of Joshua's artistic journey."
+                    tech={["React", "tailwindcss"]}
+                    // githubCode="https://github.com/itsabubakar/idyllic-ui-doc"
+                    liveSite="jakubog.com"
                 />
 
 

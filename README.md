@@ -7,16 +7,19 @@
 - [x] Build footer
 - [x] Add transitions to featured post link, fade out text onhover
 - [x] Add white wavy underline on blog links
-- [] Build Mock ups for 3 projects
-- [] Make border in experience section thick
-- [] Build Resume and add on resume page
+- [x] Build article page
+- [x] Build selected project section
+- [x] add about on resume page
+- [x] Build home page
+- [x] Build Mock ups for 3 projects
 - [] Build inner Blog page
 - [] add bread crumbs to inner blog page
-- [] Build selected project section
-- [] add about on resume page
-- [] Build home page
-- [] Build article page
+- [] Make border in experience section thick
 - [] Set it up to work with markdown
+- [] Build Resume and add on resume page
+- [] Clean up content about myself
+
+## Nice to have
 - [] Build sitemap & RSS feed
 - [] Build
 

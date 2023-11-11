@@ -23,8 +23,8 @@ const Project = ({ title, imgSrc, description, tech, liveSite, githubCode }: Pro
                     }
                 </div>
                 <div className="pt-4 flex gap-2 ">
-                    {liveSite && <Link className="underline font-body hover:text-orange-500 hover:no-underline transition duration-200" href={liveSite}>Visit live site</Link>}
-                    <Link className="underline font-body hover:text-orange-500 hover:no-underline transition duration-200" href={githubCode}>Github code</Link>
+                    {liveSite && <Link className="decoration-wavy underline font-body hover:text-orange-500 hover:no-underline transition duration-200" href={liveSite}>Visit live site</Link>}
+                    <Link className="decoration-wavy underline font-body hover:text-orange-500 hover:no-underline transition duration-200" href={githubCode}>Github code</Link>
                 </div>
 
 
