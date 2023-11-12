@@ -12,18 +12,16 @@
 - [x] add about on resume page
 - [x] Build home page
 - [x] Build Mock ups for 3 projects
-- [] Build inner Blog page
-- [] add bread crumbs to inner blog page
-- [] Make border in experience section thick
-- [] Set it up to work with markdown
+- [x] Build inner Blog page
+- [x] Make border in experience section thick
 - [] Build Resume and add on resume page
+- [] Add 404 page
 - [] Clean up content about myself
+- [] Write 2 blog article
+- [] Build a template cover letter
+- [] Take linkedin html css test
 
 ## Nice to have
 - [] Build sitemap & RSS feed
-- [] Build
 
-selected projects mock ups 1 day
-resume document 1 day
-blog posts 2 days
 

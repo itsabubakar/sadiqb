@@ -9,10 +9,6 @@ const page = (props: Props) => {
             <ul>
                 <BlogLink />
                 <BlogLink />
-                <BlogLink />
-                <BlogLink />
-                <BlogLink />
-
             </ul>
         </section>
     )
