@@ -14,9 +14,10 @@
 - [x] Build Mock ups for 3 projects
 - [x] Build inner Blog page
 - [x] Make border in experience section thick
-- [] Build Resume and add on resume page
-- [] Add 404 page
-- [] Clean up content about myself
+- [x] Add 404 page
+- [x] Build Resume and add on resume page
+- [x] Clean up content about myself
+- [x] Add favicon
 - [] Write 2 blog article
 - [] Build a template cover letter
 - [] Take linkedin html css test
