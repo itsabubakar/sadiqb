@@ -18,7 +18,7 @@ export default function Home() {
 
         <section>
 
-          <p className='font-body text-lg pb-4'>With a commitment to learning and growing, I bring a diligent and collaborative approach to every project. Let's collaborate and turn your digital ideas into reality.</p>
+          <p className='font-body text-lg pb-4'>With a commitment to learning and growing, I bring a diligent and collaborative approach to every project. Let&apos;s collaborate and turn your digital ideas into reality.</p>
           <ResumeLink />
         </section>
 
