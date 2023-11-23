@@ -32,7 +32,7 @@ const page = (props: Props) => {
             {/* Content */}
             <section className="pt-10 font-body text-gray-300 text-lg">
                 <p className="pb-6 text-lg">The apps, extensions and plugins I use to be a better developer.</p>
-                <p className="pb-6 text-lg">Digital tools help us finish tasks quicker, which is really helpful. In this article, I'm going to share the tools I use for my work. I'll explain why I use them..</p>
+                <p className="pb-6 text-lg">Digital tools help us finish tasks quicker, which is really helpful. In this article, I&lsquo;m going to share the tools I use for my work. I&lsquo;ll explain why I use them..</p>
 
             </section>
 
@@ -41,7 +41,7 @@ const page = (props: Props) => {
             <ArticleItem
                 title="Codeium"
                 imgSrc={Codeium}
-                description="Codeium is a free AI-powered toolkit for developers. It is a tool with in-house models and infrastructure. It offers autocomplete and search features. Codeium's generative code is amazing and is becoming an indispensable  part of my workspace saving me time and helping me ship products faster."
+                description="Codeium is a free AI-powered toolkit for developers. It is a tool with in-house models and infrastructure. It offers autocomplete and search features. Codeium&lsquo;s generative code is amazing and is becoming an indispensable  part of my workspace saving me time and helping me ship products faster."
             />
 
             <ArticleItem
@@ -65,7 +65,7 @@ const page = (props: Props) => {
             <div className="py-8 font-body">
                 <h2 className="text-3xl font-semibold font-headers">Conclusion</h2>
 
-                <p className='pt-2 text-lg text-gray-300'>I hope you’ve found a new tool that can help you among these!</p>
+                <p className='pt-2 text-lg text-gray-300'>I hope you&lsquo;ve found a new tool that can help you among these!</p>
             </div>
 
 
