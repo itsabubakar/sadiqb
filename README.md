@@ -18,9 +18,9 @@
 - [x] Build Resume and add on resume page
 - [x] Clean up content about myself
 - [x] Add favicon
-- [] Write 2 blog article
-- [] Build a template cover letter
+- [] Write 1 blog article
 - [] Take linkedin html css test
+- [] Build a template cover letter
 
 ## Nice to have
 - [] Build sitemap & RSS feed
